@@ -34,7 +34,7 @@ function Signupcomponent() {
             setconfirmpassword('');
             return false;
         }
-        axios.post('http://localhost:3000/register', {
+        axios.post('https://login-v5rs.onrender.com/register', {
             email: email,
             password: password,
             confirmpassword: confirmpassword
